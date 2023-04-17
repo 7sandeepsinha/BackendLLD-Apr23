@@ -1,5 +1,7 @@
 package encapsulation;
 
+import inheritanceAndPolymorphism.Employee;
+
 public class Client {
     public static void main(String[] args) {
         Student ayush = new Student(); // ayush student obj
@@ -29,5 +31,6 @@ public class Client {
 
         s2.getArea();
         s2.getPerimeter();
+
     }
 }

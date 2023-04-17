@@ -39,5 +39,13 @@ public class Client {
 
         System.out.println("---------------");
         FixedDeposit.printFDDetails();
+        
+        System.out.println(FixedDeposit.interestRate);
     }
 }
+/**
+ * Non-Static -> access both static and non-static members ( attributes and methods )
+ *  objName.methodName() , objName.attrName
+ * Static -> can only access static members
+ *  className.methodName()
+ */
