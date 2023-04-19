@@ -15,7 +15,6 @@ public class Client {
         System.out.println(car.engine);
         Nano n = new Nano();
         System.out.println(n.engine);
-        n.startCar();
 
         Car car1 = new Nano(); //upcasting
         car1.startCar();
